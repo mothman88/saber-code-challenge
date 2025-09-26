@@ -1,0 +1,13 @@
+[project]
+name = "task-manager-api"
+version = "0.1.0"
+description = "A FastAPI task manager"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi",
+    "uvicorn",
+    "sqlalchemy",
+    "pydantic",
+    "pytest",
+    "httpx"
+]
